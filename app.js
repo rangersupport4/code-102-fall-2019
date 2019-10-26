@@ -16,19 +16,36 @@ line(0, 40, 640, 40);
 }
 
 
-function day1AM {
+function day1AM (){
     console.log("hello world");
     var fullName = "Daniel Torre";
     var age = 49;
     var weight = "80kgs";
-    var heightInches = 5.5;
+    var heightInInches = 5.5;
     var address = "123 main st"
     var middleName;
-    console.log(middleName);
-    console.log(typeof(weight));
+    //console.log(middleName);
+    //console.log(typeof(weight));
     var likesPizza = true;
     var hasTattoos = false;
+    //console.log(typeof(likesPizza));
 
+    age = 50;
+    console.log(age);
+    age = age + 1;
+    console.log(age);
+    age++;
+    age += 1;
+    console.log(age);
+
+    console.log(fullName + " is " +age +" years old.");
+    console.log( "Do you like pizza? " + likesPizza);
+    var feet = Math.floor(heightInInches / 12);
+    var inches = heightInInches % 12;
+    console.log(fullName + " is " + feet + " foot " + inches + " inches tall " );
+
+
+    
 }
 
 day1AM();
