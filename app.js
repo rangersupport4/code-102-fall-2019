@@ -14,3 +14,21 @@ stroke(0,0,255);
 strokeWeight(3);
 line(0, 40, 640, 40);
 }
+
+
+function day1AM {
+    console.log("hello world");
+    var fullName = "Daniel Torre";
+    var age = 49;
+    var weight = "80kgs";
+    var heightInches = 5.5;
+    var address = "123 main st"
+    var middleName;
+    console.log(middleName);
+    console.log(typeof(weight));
+    var likesPizza = true;
+    var hasTattoos = false;
+
+}
+
+day1AM();
