@@ -47,11 +47,17 @@ function day1AM (){
 print("Hello World");
 var convertedTemp = f2c(32);
 print (convertedTemp);
+
+print(whatToWear(90));
     
 }
 
 day1AM();
+day1PM();
 
+function day1PM() {
+
+}
 function print(input){
     console.log(input)
 }
@@ -59,5 +65,22 @@ function print(input){
 //Input: temperature in fahrenheit
 function f2c(t){
 return((t - 32 ) * (5 / 9) );
+
+}
+//function bmiConverter(weight, height, age,) {
+    //return 0;}
+    //re do code for casino function
+    
+
+function whatToWear(temp){
+    if(temp >= 75 )
+    {return "swim wear";
+} else if (temp >=45){
+    return " light jacket ";
+} else if (temp >=10){
+    return "winter jacket";
+} else{ 
+    return 'Dont go outside';
+}
 
 }
