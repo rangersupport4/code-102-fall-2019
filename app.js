@@ -1,8 +1,8 @@
-var dann = {
-    firstName: "Danny",
-    middleName: "A",
-    lastName: "Torregroza",
-    dob: [06,17,1951], //month, day, year
+var marc = {
+    firstName: "Marc",
+    middleName: "Leo",
+    lastName: "Hauschildt",
+    dob: [12,1,2001], //month, day, year
     likesPizza: true,
     heightInInches: 75,
     fullName: function () {
@@ -316,3 +316,6 @@ friends.forEach(function(person) {
     result += " like pizza.";
     print(result);
 });
+function print(input) {
+    console.log(input);
+}
